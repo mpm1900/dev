@@ -8,4 +8,9 @@ angular.module('app').config(['$routeProvider', function($routeProvider) {
 		templateUrl: 'app/home/home.html',
 		controller: 'homeController'
 	});
+
+	$routeProvider.when("/about", {
+		templateUrl: 'app/about/about.html',
+		controller: 'aboutController'
+	});
 }]);
