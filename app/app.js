@@ -6,6 +6,6 @@ angular.module('app').config(['$routeProvider', function($routeProvider) {
 	// app url routing
 	$routeProvider.when("/", {
 		templateUrl: 'app/home/home.html',
-		controller: 'HomeController'
+		controller: 'homeController'
 	});
 }]);
