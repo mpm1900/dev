@@ -1,3 +1,6 @@
+angular.module('app', []);
+
+/*
 angular.module('app', ['ngRoute']);
 
 angular.module('app').config(function($routeProvider) {
@@ -7,4 +10,4 @@ angular.module('app').config(function($routeProvider) {
 		templateUrl: base + './home/home.html',
 		controller: 'HomeController'
 	});
-});
+}); */
